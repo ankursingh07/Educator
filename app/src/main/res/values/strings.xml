@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">Login</string>
+    <string name="title_activity_project">ProjectActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+
+    <string name="user_name"></string>
+
+    <string-array name="learn_menu">
+        <item>Dsa</item>
+        <item>Operating system</item>
+        <item>DBMS</item>
+        <item>Artificial Intelligence</item>
+        <item>Computer Networks</item>
+        <item>Cyber security</item>
+        <item>Cloud Computing</item>
+    </string-array>
+
+    <string-array name="course_menu">
+        <item>Machine Learning</item>
+        <item>Server side Nodejs</item>
+        <item>Android App Development</item>
+        <item>DSA</item>
+    </string-array>
+
+    <string-array name="project_menu">
+        <item>Group chat app</item>
+        <item>Web development project</item>
+        <item>Computer Vision</item>
+        <item>College management system</item>
+    </string-array>
+
+</resources>

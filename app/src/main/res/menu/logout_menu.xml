@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:title="Edit"
+        android:id="@+id/editProfile"
+        app:showAsAction="always"
+        android:icon="@drawable/edit_profile"/>
+
+    <item android:title="Logout"
+        android:id="@+id/logOutButton"
+        app:showAsAction="always"
+        android:icon="@drawable/logout_menu_icon"/>
+
+
+</menu>

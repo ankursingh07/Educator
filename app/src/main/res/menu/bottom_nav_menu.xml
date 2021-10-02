@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+  <item android:title="Home"
+      android:id="@+id/homeBottomNav"
+      android:icon="@drawable/bottom_nav_home"
+      android:visible="true"
+      app:showAsAction="always"
+      />
+  <item android:title="Project"
+    android:id="@+id/projectBottomNav"
+    android:icon="@drawable/project_icon1"
+    app:showAsAction="always"
+    android:visible="true"/>
+
+
+  <item android:title="Create"
+      android:id="@+id/createBottomNav"
+      android:icon="@drawable/bottom_nav_create"
+      android:visible="true"
+      app:showAsAction="always"
+    />
+
+  <item android:title="Explore"
+      android:id="@+id/exploreBottomNav"
+      android:icon="@drawable/bottom_nav_explore"
+      android:visible="true"
+      app:showAsAction="always"/>
+
+  <item android:title="Account"
+      android:id="@+id/accountBottomNav"
+      android:icon="@drawable/bottom_nav_account_centre"
+      android:visible="true"
+      app:showAsAction="always"/>
+
+
+</menu>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    android:gravity="center">
+
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:id="@+id/newfragment"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@drawable/round_grey">
+
+        <androidx.appcompat.widget.AppCompatSpinner
+
+            android:id="@+id/spinner_team"
+            android:layout_width="200dp"
+            android:layout_height="40dp">
+
+        </androidx.appcompat.widget.AppCompatSpinner>
+
+    </FrameLayout>
+
+
+
+    <ImageView
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:id="@+id/close_tag"
+        android:src="@drawable/ic_baseline_close_24"
+        android:layout_gravity="center_vertical"
+        android:layout_marginRight="10dp"
+        ></ImageView>
+
+</LinearLayout>

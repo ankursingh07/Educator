@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <EditText
+            android:id="@+id/projectEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="30sp"
+            android:textColor="@color/black"
+            android:background="@color/white"
+            android:hint="Heading"
+            android:maxLength="30"
+            android:layout_margin="10dp"/>
+
+        <EditText
+            android:id="@+id/projectBriefDescription"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:textSize="20sp"
+            android:maxWidth="50dp"
+            android:textColor="@color/black"
+            android:background="@color/white"
+            android:hint="Brief Description"
+            android:gravity="start"
+            android:inputType="textMultiLine"
+            android:maxEms="20"
+            android:maxLength="200"
+            android:layout_margin="10dp"/>
+
+
+        <EditText
+            android:id="@+id/projectFullDescription"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:textSize="20sp"
+            android:maxWidth="50dp"
+            android:textColor="@color/black"
+            android:background="@color/white"
+            android:hint="Full Description"
+            android:gravity="start"
+            android:inputType="textMultiLine"
+            android:maxEms="20"
+            android:maxLength="200"
+            android:layout_margin="10dp"/>
+
+        <EditText
+            android:id="@+id/githubUrl"
+            android:background="@color/white"
+            android:layout_margin="10dp"
+            android:hint="githubUrl"
+            android:textSize="18sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textUri"/>
+
+        <EditText
+            android:id="@+id/hostUrl"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Host-Url (optional)"
+            android:textSize="18sp"
+            android:inputType="textUri"
+            android:background="@color/white"
+            android:layout_margin="10dp"/>
+
+        <ImageView
+            android:id="@+id/projectImage"
+            android:src="@drawable/addimage"
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="400dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="end">
+            <Button
+                android:id="@+id/projectImageAddButton"
+                android:text="Add Image"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_gravity="end"
+                android:layout_marginEnd="10dp"
+                />
+
+            <Button
+                android:id="@+id/uploadProjectButton"
+                android:text="Upload"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_gravity="end"
+                android:layout_marginEnd="10dp" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+
+</ScrollView>

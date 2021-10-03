@@ -6,7 +6,8 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:gravity="center_horizontal"
-    tools:context=".LoginActivity">
+    tools:context=".LoginActivity"
+    android:background="@drawable/backgroundapp">
 
     <EditText
         android:id="@+id/loginId"
@@ -37,6 +38,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/loginBtn"
+        android:layout_marginTop="30dp"
         android:textSize="20sp"
         android:text="Login"/>
 
